@@ -1,10 +1,14 @@
-import './App.css'
+import "./App.css";
+import { Content, Window } from "./components";
 
 function App() {
-
-  return (
-    <div className="App"></div>
- )
+	return (
+		<div>
+			<Window>
+				<Content />
+			</Window>
+		</div>
+	);
 }
 
-export default App
+export default App;
