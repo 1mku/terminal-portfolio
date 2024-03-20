@@ -1,12 +1,15 @@
 :root {
-  --primary: #646cff;
-  --hover: #535bf2;
+  --text-primary: #fefefe;
+  --text-secondary: #a1a1a1;
+  --text-hover: #535bf2;
   --bg: #242424;
   --bg-dark: #1d1d1d;
 
   --green: #27C840;
   --yellow: #FEBC2E;
   --red: #FF5F57;
+  --white: #FFF;
+  --white: #a1a1a1;
 
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -25,12 +28,12 @@
 
 a {
   font-weight: 500;
-  color: var(--primary);
+  color: var(--text-hover);
   text-decoration: inherit;
 }
 
 a:hover {
-  color: var(--hover);
+  color: var(--text-hover);
 }
 
 body {
@@ -39,6 +42,11 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+  padding: 1rem;
 }
 
 h1 {

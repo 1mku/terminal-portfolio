@@ -1,14 +1,23 @@
-.root {
+.container {
+  container: root / inline-size;
+}
+
+.window {
+  margin: 0 auto;
+  width: 100%;
   min-width: 350px;
   min-height: 400px;
   overflow: hidden;
 
-  border-radius: 10px;
-
-  background: var(--bg-dark);
+  background-color: var(--bg-dark);
   box-shadow: 0 0 15px rgba(246, 246, 246, 0.15);
-  border: 1px solid #a1a1a1;
-  ;
+
+  border-radius: 1rem;
+  border: 1px solid var(--gray);
+
+  @container (width>=720px) {
+    max-width: 720px;
+  }
 }
 
 .header {
@@ -18,7 +27,8 @@
   align-items: center;
 
   padding: 1rem;
-  border-radius: 10px;
-  background: var(--bg-dark);
-  color: #a1a1a1;
+
+  border-radius: 1rem;
+  background-color: var(--bg-dark);
+  color: var(--text-secondary);
 }

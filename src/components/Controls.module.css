@@ -5,10 +5,10 @@
 
 .button {
     border-radius: 50%;
-    height: 0.7rem;
-    width: 0.7rem;
+    height: 0.75rem;
+    width: 0.75rem;
 
-    background-color: #fff;
+    background-color: var(--white);
 }
 
 .close {
