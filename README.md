@@ -12,7 +12,7 @@
 **Frontend Tooling:**
 [Vite](https://vitejs.dev/)
 
-**Deployment** - [Cloudflare](https://www.cloudflare.com/)
+**Deployment** - [Vercel](https://www.vercel.com/)
 
 ## How to run
 
